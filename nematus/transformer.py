@@ -281,7 +281,7 @@ class TransformerEncoder(object):
 
         def _prepare_source():
             """ Pre-processes inputs to the encoder and generates the corresponding attention masks."""
-            DICT_SIZE, ENG_DICT_FILE, _, _, _, DEBIASED_EMBEDDING, _ = get_debias_files_from_config(
+            DICT_SIZE, ENG_DICT_FILE, _, _, _, DEBIASED_EMBEDDING, _ ,_= get_debias_files_from_config(
                 self.consts_config_str)
             if self.USE_DEBIASED:
                 print("using debiased embeddings")
