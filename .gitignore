@@ -20,7 +20,7 @@ mt_gender_old/
 ../debias_files/en-he/*
 ../debias_files/en-ru/*
 en_anti_parsed.txt
-nematus_env3/*
+venv/*
 output_translate.txt
 test_file
 slurm/*
